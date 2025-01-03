@@ -1,0 +1,125 @@
+
+*:before,
+*:after{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+:root{
+    --black-color: #000;
+    --white-color: #ffffff;
+    /* --p-font: 0.9rem; */
+    /* --h2-font: 2.5rem; */
+    --main-color: rgb(38,38,38);
+    /* --big-font: 3.5rem; */
+    --green-color: green;
+}
+.popup-xyz{
+background: url(./Studypma\ layers\ .jpg);
+/* background-size: cover;
+background-position: center; */
+width: 420px;
+padding: 10px 15px;
+position: fixed;
+transform: translate(-50%,-50%);
+left: 50%;
+top: 50%;
+border-radius: 8px;
+font-family: "Poppins",sans-serif;
+display: none; 
+text-align: center;
+box-shadow: rgb(38, 38, 38) 0px 0px 4px;
+z-index: 9999;
+}
+.popup-xyz .button-popup-close{
+display: block;
+margin:  0 0 20px auto;
+background-color: transparent;
+font-size: 15px;
+color: #ffffff;
+background: #e50000;
+border-radius: 100%;
+width: 25px;
+height: 25px;
+border: none;
+outline: none;
+cursor: pointer;
+}
+.popup-xyz h2{
+margin-top: -20px;
+}
+.popup-xyz p{
+font-size: 16px;
+text-align: justify;
+margin: 15px 0;
+line-height: 25px;
+}
+.automatic-social-links{
+   margin: 10px;
+}
+
+.popup-button-h2-color{
+    font-family: 'Satisfy', cursive;
+}
+.popup-xyz p span{
+    font-weight: 600;
+}
+p li{
+    list-style: none;
+    font-weight: bold;
+}
+.automatic-social-links a{
+    padding: 4px 7px;
+    border-radius: 50%;
+    margin: 10px 6px ;
+}
+.automatic-social-links a:hover{
+	background-color: var(--white-color);
+}
+.automatic-social-links .youtube {
+    background: #FF0000;
+    color: var(--white-color);
+}
+.automatic-social-links .youtube:hover{
+    color: #FF0000;
+    background: var(--white-color);
+}
+
+.automatic-social-links .instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: var(--white-color);
+}
+
+.automatic-social-links .instagram:hover{
+    background: var(--white-color);
+    color: #fd5949 ;
+}
+.automatic-social-links .whatsapp{
+ background: var(--green-color);
+ color: var(--white-color);
+}
+.automatic-social-links .whatsapp:hover{
+ background: var(--white-color);
+ color: var(--green-color);
+}
+
+
+@media (max-width: 576px){
+    .popup-xyz{
+        width: 300px;
+        padding: 8px 12px;
+    }
+    .popup-xyz h2{
+        margin-top: -50px;
+    }
+    .popup-xyz p{
+        font-size: 14px;
+        margin: 12px 0px;
+        line-height: 20px;
+    }
+}
+@media (max-width:660px){
+    .popup-xyz{
+        background-size: cover;
+        background-position: top;}
+}

@@ -1,0 +1,89 @@
+
+.all-mcq-qoute{
+    display: flex;
+    margin: auto;
+    margin-bottom: 8px;
+    margin-top: 80px;
+    font-family: 'Satisfy';
+    justify-content: center;
+    font-size: 1.6rem;
+    color: var(--main-color);
+    color: var(--green-color);
+}
+
+
+
+.non-verbal-heading{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+.non-verbal-section{
+    margin-top: 50px;
+    text-align: center;
+}
+.non-verbal-heading2 h2{
+    margin: auto;
+    width: 40%;
+    color: #fff;
+    background: green;
+    padding: 6px ;
+    overflow: hidden;
+}
+
+.non-verbal-pdf{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.non-verbal-pdf a{
+    color: #fff;
+    background: green;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 4px;
+    box-shadow: rgb(38, 38, 38) 2px 4px 4px;
+}
+.non-verbal-pdf a:hover{
+  background: transparent;
+  color: green;
+  border: 1px solid green;
+  border-radius: 6px;
+}
+.non-verbal-links{
+    margin: 20px;
+}
+.footer{
+    margin-bottom: 0%;
+}
+
+@media (max-width: 700px){
+    .non-verbal-heading{
+        width: 90%;
+        margin: auto;
+        margin-top: 8%;
+    }
+    .non-verbal-section{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .non-verbal-heading2 h2{
+        width: 80%;
+    }
+    .non-verbal-links{
+        margin: 20px 35px;
+    }
+    .non-verbal-pdf{
+        width: 100%;
+    }
+    .all-mcq-qoute{
+        margin-top: 80px;
+        font-size: 16px;
+    }
+}

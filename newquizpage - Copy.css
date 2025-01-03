@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.newquiz-heading{
+    margin: auto;
+    margin-top: 6%;
+    color: #fff;
+    width: 40%;
+    padding: 10px;
+    background: green;
+    text-align: center;
+}
+.newquiz-heading h1{
+font-size: 1.1rem;
+}
+hr{
+    margin: 15px 0px;
+}
+.newquizbtns{
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.nq-btn{
+    background: green;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgb(82, 82, 82) 0px 0px 2px;
+    margin: 15px;
+  
+}
+.nq-btn:hover{
+background: rgb(38, 38, 38);
+box-shadow: rgb(56, 56, 56) 0px 0px 8px;
+transition: 0.2s;
+}
+.nq-btn a{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+@media (max-width: 560px){
+    .newquiz-heading{
+        margin-top: 18%;
+        width: 80%;
+    }
+    .newquizbtns{
+        width: 75%;
+    }
+    .newquiz-heading h1{
+        font-size: 0.8rem;
+    }
+    .nq-btn{
+        margin: auto;
+        width: 80%;
+        padding: 10px 35px;
+        margin-top: 15px;
+    }
+    
+}
+@media (max-width: 850px) and (min-width: 560px){
+    .newquiz-heading{
+        margin-top: 12%;
+        width: 60%;
+    }
+}

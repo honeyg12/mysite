@@ -1,0 +1,111 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} */
+/* body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EFEFEF;
+} */
+.slide-container{
+  max-width: 90%;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content {
+  margin: 20px 40px;
+  overflow: hidden;
+  border-radius: 25px;
+  padding: 15px;
+}
+.card{
+  border-radius: 25px;
+  background-color: #FFF;
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 2px 0;
+}
+
+
+
+.card-image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid green;
+}
+.name{
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+/* .button{
+  border: none;
+  font-size: px;
+  color: #FFF;
+  padding: px 16px;
+  background-color: green;
+  border-radius: px;
+  margin: px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #265DF2;
+} */
+
+.swiper-navBtn{
+  color:  rgb(38, 38, 38);
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: green;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: rgb(38, 38, 38);
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: green;
+}
+
+
+
+

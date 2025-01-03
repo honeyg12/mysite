@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --black-color: #000;
+    --white-color: #ffffff;
+    /* --p-font: 0.9rem; */
+    /* --h2-font: 2.5rem; */
+    --main-color: rgb(38, 38, 38);
+    /* --big-font: 3.5rem; */
+    --green-color:green;
+}
+
+header{
+    top: 0%;
+}
+.all-mcq-heading{
+    margin: auto;
+   margin-top: 80px; 
+   justify-content: center;
+   align-items: center;
+}
+.all-mcq-qoute{
+    display: flex;
+    margin: auto;
+    margin-bottom: 8px;
+    font-family: 'Satisfy';
+    justify-content: center;
+    font-size: 1.6rem;
+    color: var(--main-color);
+    color: var(--green-color);
+}
+.all-mcq-title{
+    background-color: var(--white-color);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-family: sans-serif;
+    
+}
+.all-mcq-title p{
+    background-color: var(--main-color);
+    padding: 8px 14px;
+    font-size: 1.6rem;
+    color: var(--white-color);
+    font-weight: 600;
+}
+.all-mcq-section{
+    padding: 0px 10px;
+    margin: auto;
+    /* margin-top: 40px; */
+    width: 70%;
+    border-left: 1px solid var(--main-color);
+    border-right: 1px solid var(--main-color);
+    background: var(--white-color);
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    text-align: left;
+
+}
+.all-mcq-section h1{
+font-size: 1.6rem;
+color: var(--white-color);
+font-family: sans-serif;
+background: var(--green-color);
+justify-content: center;
+text-align: center;
+margin: auto;
+padding: 6px 10px;
+margin-bottom: 20px;
+}
+
+
+.all-mcq-section p{
+    width: 100%;
+    color: var(--main-color);
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.all-mcq-section p span{
+    color: var(--main-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+}
+.all-mcq-title p a{
+    color: #ffffff;
+    font-family: serif;
+    background-color: green;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    padding: 4px 6px;
+    border-radius: 5px;
+    border: 1.5px solid #ffffff;
+
+}
+
+
+/* ----------500-350--------- */
+
+@media (max-width: 500px) and (min-width:350px) {
+
+    .all-mcq-section p{
+        font-size: 1.2rem;
+    }
+    .all-mcq-section{
+        width: 100%;
+        border: none;
+    }
+    .all-mcq-section p span{
+        font-size: 1.2rem;
+    }
+    .all-mcq-title p{
+        font-size: 1.1rem;
+    }
+    .all-mcq-title{
+        width: 90%;
+        margin: auto;
+        margin-top: 6px;
+    }
+    .all-mcq-qoute{
+        font-size: 1.2rem;
+    }
+    .all-mcq-title p a{
+        margin-top: 10px;
+    }
+}
+/* ----------349-300--------- */
+
+@media (max-width: 350px) and (min-width:300px) {
+
+    .all-mcq-section p{
+        font-size: 1rem;
+    }
+    .all-mcq-section{
+        width: 100%;
+        border: none;
+    }
+    .all-mcq-section p span{
+        font-size: 1rem;
+    }
+    .all-mcq-title p{
+        font-size: 0.9rem;
+    }
+    .all-mcq-title{
+        width: 90%;
+        margin: auto;
+        margin-top: 5px;
+    }
+    .all-mcq-qoute{
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----------500-600--------- */
+
+@media (max-width: 600px) and (min-width:500px) {
+
+    .all-mcq-section p{
+        font-size: 1.4rem;
+    }
+    .all-mcq-section{
+        width: 100%;
+        border: none;
+    }
+    .all-mcq-section p span{
+        font-size: 1.4rem;
+    }
+    .all-mcq-title p{
+        font-size: 1.3rem;
+    }
+    .all-mcq-title{
+        width: 90%;
+        margin: auto;
+        margin-top: 6px;
+    }
+    .all-mcq-qoute{
+        font-size: 1.2rem;
+    }
+}
+/* ----------600-800--------- */
+
+@media (max-width: 800px) and (min-width:600px) {
+
+    .all-mcq-section p{
+        font-size: 1.5rem;
+    }
+    .all-mcq-section{
+        width: 100%;
+        border: none;
+    }
+    .all-mcq-section p span{
+        font-size: 1.5rem;
+    }
+    .all-mcq-title p{
+        font-size: 1.4rem;
+    }
+    .all-mcq-title{
+        width: 90%;
+        margin: auto;
+        margin-top: 8px;
+    }
+    .all-mcq-qoute{
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+
